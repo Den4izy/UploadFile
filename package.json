@@ -1,7 +1,6 @@
 {
   "name": "uploadfile",
   "version": "1.0.0",
-  "description": "",
   "main": "App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +9,15 @@
   "license": "ISC",
   "dependencies": {
     "formidable": "^2.0.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Den4izy/UploadFile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Den4izy/UploadFile/issues"
+  },
+  "homepage": "https://github.com/Den4izy/UploadFile#readme",
+  "description": ""
 }

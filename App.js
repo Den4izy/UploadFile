@@ -66,8 +66,10 @@ function sendRes2(url, contentType, res, req) {
         console.log(files['file']['filepath']);
         //console.log(fs.statSync(files));
         let oldpath = files['file']['filepath'];
-
-        let newpath = path.join(__dirname, url);
+        console.log();
+        let ar = url.split('/');
+        console.log(ar);
+        let newpath = path.join(__dirname + '/static/images/', ar[2]);
         console.log(newpath);
         fs.rename(oldpath, newpath, function (err) {
             if (err) throw err;
